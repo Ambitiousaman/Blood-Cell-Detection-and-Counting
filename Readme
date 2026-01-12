@@ -1,1 +1,52 @@
+**🩸 Blood Cell Detection and Counting using Deep Learning**
 
+📌 Project Overview
+Manual blood cell analysis under a microscope is time-consuming, error-prone, and requires expert intervention. This project automates the detection 
+and counting of blood cells from microscopic images using deep learning–based object detection.
+The model accurately identifies and counts different blood cell types, helping reduce human effort and improving efficiency in medical image analysis.
+
+🎯 Problem Statement
+
+1) Traditional blood cell counting is done manually by lab technicians
+2) High chances of human error
+3) Not scalable for large datasets
+4) Requires significant time and expertise
+
+Solution:
+Use computer vision and deep learning to automatically detect and count blood cells from images.
+
+🚀 Features
+
+1) Automatic detection of blood cells from images
+2) Bounding box visualization for detected cells
+3) Accurate cell counting
+4) Trained using state-of-the-art object detection model
+5) Scalable for real-world medical datasets
+
+🧠 Tech Stack
+
+1) Programming Language: Python
+2) Deep Learning Framework: PyTorch
+3) Model: YOLO (Ultralytics)
+4) Libraries: OpenCV, NumPy, Matplotlib
+5) Training & Inference: Ultralytics YOLO
+6) Environment: Jupyter Notebook / Python scripts
+
+⚙️ Model Training
+
+1) Used YOLO object detection architecture
+2) Dataset annotated with bounding boxes
+3) Model trained on labeled blood cell images
+4) Best performing weights saved as best.pt
+
+🧪 Inference
+ The trained model can:
+1) Detect blood cells in unseen images
+2) Draw bounding boxes around detected cells
+3) Count total number of detected cells
+
+🤝 Acknowledgements
+
+1) Ultralytics YOLO
+2) Open-source medical imaging datasets
+3) PyTorch community
